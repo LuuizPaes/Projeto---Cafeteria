@@ -34,7 +34,7 @@ section {
     top: 0;
     right: 0;
     left: 0;
-    z-index: 99;
+    z-index: 1;
     border-bottom: var(--border);
     background-color: var(--bg);
 }
@@ -250,4 +250,69 @@ section {
 
 .footer .share img:hover {
     background-color: var(--main-color);
+}
+
+.menu-icon {
+    width: 50px;
+    margin-right: 35px;
+    display: none;
+    z-index: 2;
+    cursor: pointer;
+}
+
+@media (max-width: 740px) {
+    
+    #menu-list {
+        position: absolute;
+        top: 80px;
+        left: 300px;
+        overflow: hidden;
+        
+    }
+
+    .icons {
+        display: none;
+        z-index: 2;
+    }
+
+    .menu-icon {
+        display: block;
+        z-index: 2;
+    }
+
+    .nav-a {
+        display: block;
+        margin-top: 20px;
+
+    
+    }
+
+    .header {
+        border-bottom: 0;
+        
+    }
+
+    .home-container {
+        margin-top: 50px;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    .content h3 {
+        font-size: 4.5rem;
+    }
+
+    .about .row {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .about img {
+        margin-top: 10px;
+        width: 250px;
+        height: 250px;
+    }
+
 }
