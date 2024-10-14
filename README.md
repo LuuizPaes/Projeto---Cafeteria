@@ -3,7 +3,7 @@
 ## Vizualize o projeto:
 (https://luuizpaes.github.io/Projeto---Cafeteria/)
 
-<p>Página desenvolvida com Html, Css e JavaScript.</p>
+<p>Landing page para cafeteria, desenvolvida com Html, Css e JavaScript, com um layout cheio de animações e com cores que lembram exatamente o café, além disso o site passa uma experiência agradável ao usuário,.</p>
 
 ## mockup do projeto
 <img src="https://github.com/LuuizPaes/Projeto---Cafeteria/blob/main/assets/mockup%20cafeteria.png?raw=true" alt="mockup-project">
